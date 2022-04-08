@@ -12,7 +12,7 @@ TextStyle title = GoogleFonts.poppins(
 TextStyle proText = GoogleFonts.poppins(
   fontSize: 26,
   fontWeight: FontWeight.w700,
-  color: const Color(0xff007dff),
+  color: const Color.fromARGB(255, 82, 166, 255),
 );
 
 TextStyle subTitle = GoogleFonts.poppins(

@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_state_management/application_state.dart';
 import 'package:flutter_state_management/theme.dart';
-import 'package:provider/provider.dart';
 
 void main() {
   runApp(const MyApp());
@@ -37,7 +35,7 @@ class _MyAppState extends State<MyApp> {
           decoration: BoxDecoration(
             border: Border.all(
               color: selectedIndex == index
-                  ? const Color(0xff007dff)
+                  ? const Color.fromARGB(255, 82, 166, 255)
                   : const Color(0xff4d5b7c),
             ),
             borderRadius: BorderRadius.circular(14),
@@ -125,7 +123,7 @@ class _MyAppState extends State<MyApp> {
             height: 55,
             child: ElevatedButton(
               style: ElevatedButton.styleFrom(
-                primary: const Color.fromARGB(255, 84, 167, 255),
+                primary: const Color.fromARGB(255, 82, 166, 255),
                 shape: RoundedRectangleBorder(
                   borderRadius: BorderRadius.circular(75),
                 ),
